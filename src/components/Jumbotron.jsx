@@ -129,7 +129,7 @@ const ParallaxEffect = () => {
                     <Row>
                         <Col >
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant='top' src={coutch} rounded />
+                                <Card.Img variant='top' src={coutch} rounded='true' />
                                 <Card.Body>
                                     <Card.Title>Web</Card.Title>
                                     <Card.Text>
@@ -141,7 +141,7 @@ const ParallaxEffect = () => {
                         </Col>
                         <Col >
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant='top' src={coutch} rounded />
+                                <Card.Img variant='top' src={coutch} rounded="true" />
                                 <Card.Body>
                                     <Card.Title>Web</Card.Title>
                                     <Card.Text>
@@ -153,7 +153,7 @@ const ParallaxEffect = () => {
                         </Col>
                         <Col >
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant='top' src={coutch} rounded />
+                                <Card.Img variant='top' src={coutch} rounded="true" />
                                 <Card.Body>
                                     <Card.Title>Web</Card.Title>
                                     <Card.Text>
