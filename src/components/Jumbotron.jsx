@@ -71,10 +71,10 @@
 // export default Jumbotron
 
 import coutch from '../couch.png'
-import React, { useState, useEffect } from 'react';
+
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Home';
+
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import apartment from 'apartment.jpg'
 const ParallaxContainer = styled.div`

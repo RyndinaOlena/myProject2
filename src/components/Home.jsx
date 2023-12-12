@@ -1,8 +1,7 @@
 import React from 'react'
 import Slider from './Slider'
-import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import coutch from '../couch.png'
-import Jumbotron from './Jumbotron'
+import { Col, Container, Image, Row } from 'react-bootstrap'
+
 import ParallaxEffect from './Jumbotron'
 import kitchen2 from 'kitchen-2.png'
 
@@ -15,7 +14,7 @@ const Home = () => {
             <Container style={{ marginTop: '30px', marginBottom: '30px' }}>
                 <Row>
                     <Col mb={7}>
-                        <img src={kitchen2} height={400} />
+                        <Image src={kitchen2} height={400} />
                     </Col>
                     <Col mb={5}>
                         <h2>Web</h2>

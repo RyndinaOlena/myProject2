@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import coutch from '../couch.png'
+
 import blackKitch from '../photo/blackKitchen.png'
 import broukKitch from '../photo/brounKitchen.png'
 import closet from '../photo/closet.png'
