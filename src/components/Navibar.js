@@ -1,7 +1,8 @@
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 const Navibar = () => {
     return (
         <>
@@ -9,9 +10,9 @@ const Navibar = () => {
                 <Container>
                     <Navbar.Brand ><h3>Comfort</h3></Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link><Link to="/" style={{ 'textDecoration': 'none' }}>Home</Link></Nav.Link>
-                        <Nav.Link><Link to="/users" style={{ 'textDecoration': 'none' }}>Photo</Link></Nav.Link>
-                        <Nav.Link><Link to="/about" style={{ 'textDecoration': 'none' }}>Pricing</Link></Nav.Link>
+                        <NavLink to="/" style={{ 'textDecoration': 'none', marginRight: '10px' }}>Home</NavLink>
+                        <NavLink to="/users" style={{ 'textDecoration': 'none', marginRight: '10px' }}>Photo</NavLink>
+                        <NavLink to="/about" style={{ 'textDecoration': 'none', marginRight: '10px' }}>Pricing</NavLink>
                     </Nav>
                 </Container>
             </Navbar>
