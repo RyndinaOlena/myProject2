@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navibar from './Navibar';
-
+import Footer from './Footer'
 import { Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import User from './User'
@@ -17,6 +17,7 @@ export const App = () => {
         <Route exact path='/about' element={<About />} />
         <Route path="*" element={<Home />} />
       </Routes>
+      <Footer />
     </>
   );
 };

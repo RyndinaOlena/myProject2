@@ -1,9 +1,137 @@
 import React from 'react'
+import { Button, Card, Col, Container, Row } from 'react-bootstrap'
+import coutch from '../couch.png'
+import blackKitch from '../photo/blackKitchen.png'
+import broukKitch from '../photo/brounKitchen.png'
+import closet from '../photo/closet.png'
+import grinKitch from '../photo/grinKitchen.png'
+import kitchen from '../photo/kitchen.png'
+import redKitch from '../photo/redKitchen.png'
+import rivera from '../photo/rivera.png'
+import tv from '../photo/tv.png'
+import whiteKitch from '../photo/whiteKitchen.png'
 
-const User = () => {
+const Photo = () => {
     return (
-        <h1>User</h1>
+        <Container style={{ paddingTop: '10px', paddingBottom: '10px', width: '100%', marginTop: '50px', paddingLeft: '50px' }}>
+            <Row>
+                <Col >
+                    <Card style={{ width: '18rem', margin: '20px', }}>
+                        <Card.Img variant='top' src={blackKitch} rounded style={{ height: '15rem' }} />
+                        <Card.Body>
+                            <Card.Title>Web</Card.Title>
+                            <Card.Text>
+                                Lorem, ipsum.
+                            </Card.Text>
+                            <Button variant='primary'>Load more</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col >
+                    <Card style={{ width: '18rem', margin: '20px', }}>
+                        <Card.Img variant='top' src={rivera} rounded style={{ height: '15rem' }} />
+                        <Card.Body>
+                            <Card.Title>Web</Card.Title>
+                            <Card.Text>
+                                Lorem, ipsum.
+                            </Card.Text>
+                            <Button variant='primary'>Load more</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col >
+                    <Card style={{ width: '18rem', margin: '20px' }}>
+                        <Card.Img variant='top' src={closet} rounded style={{ height: '15rem' }} />
+                        <Card.Body>
+                            <Card.Title>Web</Card.Title>
+                            <Card.Text>
+                                Lorem, ipsum.
+                            </Card.Text>
+                            <Button variant='primary'>Load more</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col >
+                    <Card style={{ width: '18rem', margin: '20px' }}>
+                        <Card.Img variant='top' src={grinKitch} rounded style={{ height: '15rem' }} />
+                        <Card.Body>
+                            <Card.Title>Web</Card.Title>
+                            <Card.Text>
+                                Lorem, ipsum.
+                            </Card.Text>
+                            <Button variant='primary'>Load more</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col >
+                    <Card style={{ width: '18rem', margin: '20px' }}>
+                        <Card.Img variant='top' src={kitchen} rounded style={{ height: '15rem' }} />
+                        <Card.Body>
+                            <Card.Title>Web</Card.Title>
+                            <Card.Text>
+                                Lorem, ipsum.
+                            </Card.Text>
+                            <Button variant='primary'>Load more</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col >
+                    <Card style={{ width: '18rem', margin: '20px' }}>
+                        <Card.Img variant='top' src={redKitch} rounded style={{ height: '15rem' }} />
+                        <Card.Body>
+                            <Card.Title>Web</Card.Title>
+                            <Card.Text>
+                                Lorem, ipsum.
+                            </Card.Text>
+                            <Button variant='primary'>Load more</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            <Row>
+                <Col >
+                    <Card style={{ width: '18rem', margin: '20px' }}>
+                        <Card.Img variant='top' src={tv} rounded style={{ height: '15rem' }} />
+                        <Card.Body>
+                            <Card.Title>Web</Card.Title>
+                            <Card.Text>
+                                Lorem, ipsum.
+                            </Card.Text>
+                            <Button variant='primary'>Load more</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col >
+                    <Card style={{ width: '18rem', margin: '20px' }}>
+                        <Card.Img variant='top' src={broukKitch} rounded style={{ height: '15rem' }} />
+                        <Card.Body>
+                            <Card.Title>Web</Card.Title>
+                            <Card.Text>
+                                Lorem, ipsum.
+                            </Card.Text>
+                            <Button variant='primary'>Load more</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col >
+                    <Card style={{ width: '18rem', margin: '20px' }}>
+                        <Card.Img variant='top' src={whiteKitch} rounded style={{ height: '15rem' }} />
+                        <Card.Body>
+                            <Card.Title>Web</Card.Title>
+                            <Card.Text>
+                                Lorem, ipsum.
+                            </Card.Text>
+                            <Button variant='primary'>Load more</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+
+        </Container>
     )
 }
 
-export default User
+export default Photo

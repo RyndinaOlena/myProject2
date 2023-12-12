@@ -1,8 +1,8 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-import kitchen from '../kitchen-1940174_1280 1.png'
-import couch from '../couch-1845270_1280 2.png'
-import kitchenRoom from '../kitchen-4043098_1280 1.png'
+import kitchen from '../kitchen-1.png'
+import couch from '../couch.png'
+import kitchenRoom from '../kitchen-2.png'
 const Slider = () => {
     return (
         <Carousel>
