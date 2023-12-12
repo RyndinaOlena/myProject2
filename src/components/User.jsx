@@ -17,7 +17,7 @@ const Photo = () => {
             <Row>
                 <Col >
                     <Card style={{ width: '18rem', margin: '20px', }}>
-                        <Card.Img variant='top' src={blackKitch} rounded style={{ height: '15rem' }} />
+                        <Card.Img variant='top' src={blackKitch} rounded="true" style={{ height: '15rem' }} />
                         <Card.Body>
                             <Card.Title>Web</Card.Title>
                             <Card.Text>
@@ -29,7 +29,7 @@ const Photo = () => {
                 </Col>
                 <Col >
                     <Card style={{ width: '18rem', margin: '20px', }}>
-                        <Card.Img variant='top' src={rivera} rounded style={{ height: '15rem' }} />
+                        <Card.Img variant='top' src={rivera} rounded="true" style={{ height: '15rem' }} />
                         <Card.Body>
                             <Card.Title>Web</Card.Title>
                             <Card.Text>
@@ -41,7 +41,7 @@ const Photo = () => {
                 </Col>
                 <Col >
                     <Card style={{ width: '18rem', margin: '20px' }}>
-                        <Card.Img variant='top' src={closet} rounded style={{ height: '15rem' }} />
+                        <Card.Img variant='top' src={closet} rounded="true" style={{ height: '15rem' }} />
                         <Card.Body>
                             <Card.Title>Web</Card.Title>
                             <Card.Text>
@@ -56,7 +56,7 @@ const Photo = () => {
             <Row>
                 <Col >
                     <Card style={{ width: '18rem', margin: '20px' }}>
-                        <Card.Img variant='top' src={grinKitch} rounded style={{ height: '15rem' }} />
+                        <Card.Img variant='top' src={grinKitch} rounded="true" style={{ height: '15rem' }} />
                         <Card.Body>
                             <Card.Title>Web</Card.Title>
                             <Card.Text>
@@ -68,7 +68,7 @@ const Photo = () => {
                 </Col>
                 <Col >
                     <Card style={{ width: '18rem', margin: '20px' }}>
-                        <Card.Img variant='top' src={kitchen} rounded style={{ height: '15rem' }} />
+                        <Card.Img variant='top' src={kitchen} rounded="true" style={{ height: '15rem' }} />
                         <Card.Body>
                             <Card.Title>Web</Card.Title>
                             <Card.Text>
@@ -80,7 +80,7 @@ const Photo = () => {
                 </Col>
                 <Col >
                     <Card style={{ width: '18rem', margin: '20px' }}>
-                        <Card.Img variant='top' src={redKitch} rounded style={{ height: '15rem' }} />
+                        <Card.Img variant='top' src={redKitch} rounded="true" style={{ height: '15rem' }} />
                         <Card.Body>
                             <Card.Title>Web</Card.Title>
                             <Card.Text>
@@ -94,7 +94,7 @@ const Photo = () => {
             <Row>
                 <Col >
                     <Card style={{ width: '18rem', margin: '20px' }}>
-                        <Card.Img variant='top' src={tv} rounded style={{ height: '15rem' }} />
+                        <Card.Img variant='top' src={tv} rounded="true" style={{ height: '15rem' }} />
                         <Card.Body>
                             <Card.Title>Web</Card.Title>
                             <Card.Text>
@@ -106,7 +106,7 @@ const Photo = () => {
                 </Col>
                 <Col >
                     <Card style={{ width: '18rem', margin: '20px' }}>
-                        <Card.Img variant='top' src={broukKitch} rounded style={{ height: '15rem' }} />
+                        <Card.Img variant='top' src={broukKitch} rounded="true" style={{ height: '15rem' }} />
                         <Card.Body>
                             <Card.Title>Web</Card.Title>
                             <Card.Text>
@@ -118,7 +118,7 @@ const Photo = () => {
                 </Col>
                 <Col >
                     <Card style={{ width: '18rem', margin: '20px' }}>
-                        <Card.Img variant='top' src={whiteKitch} rounded style={{ height: '15rem' }} />
+                        <Card.Img variant='top' src={whiteKitch} rounded="true" style={{ height: '15rem' }} />
                         <Card.Body>
                             <Card.Title>Web</Card.Title>
                             <Card.Text>
