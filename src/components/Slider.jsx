@@ -6,7 +6,7 @@ import kitchenRoom from '../kitchen-2.png'
 const Slider = () => {
     return (
         <Carousel>
-            <Carousel.Item style={{ 'height': '500px' }}>
+            <Carousel.Item md={{ 'height': '500px' }}>
                 <img
                     className="d-block w-100"
                     src={kitchen}
@@ -16,7 +16,7 @@ const Slider = () => {
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, iusto.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item style={{ 'height': '500px' }}>
+            <Carousel.Item md={{ 'height': '500px' }}>
                 <img
                     className="d-block w-100"
                     src={couch}
@@ -26,7 +26,7 @@ const Slider = () => {
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, iusto.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item style={{ 'height': '500px' }}>
+            <Carousel.Item md={{ 'height': '500px' }}>
                 <img
                     className="d-block w-100"
                     src={kitchenRoom}

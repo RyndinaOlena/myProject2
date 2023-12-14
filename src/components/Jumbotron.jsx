@@ -106,19 +106,6 @@ const ContentContainer = styled.div`
 `;
 
 const ParallaxEffect = () => {
-    // const [offset, setOffset] = useState(0);
-    // <ParallaxBackground style={{ transform: `translateY(-${offset * 0.5}px)` }} />
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         setOffset(window.pageYOffset);
-    //     };
-
-    //     window.addEventListener('scroll', handleScroll);
-
-    //     return () => {
-    //         window.removeEventListener('scroll', handleScroll);
-    //     };
-    // }, []);
 
     return (
         <ParallaxContainer>
@@ -126,7 +113,7 @@ const ParallaxEffect = () => {
             <ContentContainer>
                 {/* Ваш контент, который будет на переднем плане */}
                 <Container style={{ paddingTop: '10px', paddingBottom: '10px', width: '100%', marginTop: '100px', paddingLeft: '50px' }}>
-                    <Row>
+                    <Row >
                         <Col >
                             <Card style={{ width: '18rem' }}>
                                 <Card.Img variant='top' src={coutch} rounded='true' />
