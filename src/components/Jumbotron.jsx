@@ -110,9 +110,9 @@ const ParallaxEffect = () => {
     return (
         <ParallaxContainer>
             <ParallaxBackground />
-            <ContentContainer>
+            <ContentContainer xs={'auto'}>
                 {/* Ваш контент, который будет на переднем плане */}
-                <Container style={{ paddingTop: '10px', paddingBottom: '10px', width: '100%', marginTop: '100px', paddingLeft: '50px' }}>
+                <Container xs={{ height: 'auto', paddingTop: '20px' }} md={{ paddingTop: '10px', paddingBottom: '10px', width: '100%', marginTop: '100px', paddingLeft: '50px' }} style={{ paddingTop: '20px' }}>
                     <Row >
                         <Col >
                             <Card style={{ width: '18rem' }}>
