@@ -14,7 +14,7 @@ const Navibar = () => {
                         <NavLink to="/users" style={{ 'textDecoration': 'none', marginRight: '10px' }}>Photo</NavLink>
                         <NavLink to="/about" style={{ 'textDecoration': 'none', marginRight: '10px' }}>Pricing</NavLink>
                     </Nav>
-                    <Nav> <Nav.Link href='tel:+380939424083' style={{ marginLeft: 'auto' }}><IoCallOutline size={30} /></Nav.Link></Nav>
+                    <Nav> <Nav.Link href='tel:+380939331160' style={{ marginLeft: 'auto' }}><IoCallOutline size={30} /></Nav.Link></Nav>
 
                 </Container>
             </Navbar>
