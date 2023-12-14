@@ -1,4 +1,6 @@
 
+import { Button } from 'react-bootstrap';
+import { IoCallOutline } from "react-icons/io5";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -14,6 +16,8 @@ const Navibar = () => {
                         <NavLink to="/users" style={{ 'textDecoration': 'none', marginRight: '10px' }}>Photo</NavLink>
                         <NavLink to="/about" style={{ 'textDecoration': 'none', marginRight: '10px' }}>Pricing</NavLink>
                     </Nav>
+                    <Nav> <Nav.Link href='tel:+380939424083' style={{ marginLeft: 'auto' }}><IoCallOutline size={30} /></Nav.Link></Nav>
+
                 </Container>
             </Navbar>
 
