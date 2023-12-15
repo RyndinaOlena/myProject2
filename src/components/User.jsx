@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Button, Card, Col, Container, Modal, Row } from 'react-bootstrap'
-
 import blackKitch from '../photo/works/blackKitchen.png'
 import broukKitch from '../photo/works/brounKitchen.png'
 import closet from '../photo/works/closet.png'
@@ -19,8 +18,8 @@ const Photo = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return (
-        <>
-            <Container style={{ padding: '10px 0 10px 50px', width: '100%', marginTop: '50px' }}>
+        < >
+            <Container style={{ padding: '10px 0 10px 50px', width: '100%', marginTop: '50px', }}>
                 <Suspense fallback={<Loader />}>
                     <Row>
                         <Col >

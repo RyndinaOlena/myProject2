@@ -1,7 +1,12 @@
-import coutch from '../photo/kitchen/couch.png'
 
+import planner from '../photo/kitchen/planner.jpg'
+import sign from '../photo/kitchen/sign3.jpg'
+import bar from '../photo/kitchen/bar.jpg'
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { IoCheckmarkDoneSharp } from "react-icons/io5";
+import { FaRegSmileBeam } from "react-icons/fa";
+
 
 import { Button, Card, Col, Container, Modal, Row } from 'react-bootstrap';
 import apartment from '../photo/kitchen/apartment.jpg'
@@ -50,51 +55,51 @@ const ParallaxEffect = () => {
                         <Row >
                             <Col >
                                 <Card style={{ width: '18rem' }}>
-                                    <Card.Img variant='top' src={coutch} rounded='true' />
+                                    <Card.Img variant='top' src={sign} rounded='true' />
                                     <Card.Body>
-                                        <Card.Title>Web</Card.Title>
+                                        <Card.Title>Відкрито <IoCheckmarkDoneSharp style={{ color: "green" }} /></Card.Title>
                                         <Card.Text>
-                                            Lorem, ipsum.
+                                            Ми працюємо на вихідних щоб Ви мали змогу зустрітись у зручний для Вас час <FaRegSmileBeam style={{ color: 'gold' }} />
                                         </Card.Text>
                                         <Button variant="primary" onClick={handleShow}>
-                                            Launch demo modal
+                                            Більше інформації
                                         </Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col >
                                 <Card className='d-none d-lg-block .d-sm-none ' style={{ width: '18rem' }}>
-                                    <Card.Img variant='top' src={coutch} rounded="true" />
+                                    <Card.Img variant='top' src={planner} rounded="true" />
                                     <Card.Body>
-                                        <Card.Title>Web</Card.Title>
+                                        <Card.Title>Планування <IoCheckmarkDoneSharp style={{ color: "green" }} /></Card.Title>
                                         <Card.Text>
-                                            Lorem, ipsum.
+                                            Втілюємо в життя наймовірні ідеї  <FaRegSmileBeam style={{ color: 'gold' }} />
+                                            <br />
+                                            <br />
                                         </Card.Text>
                                         <Button variant="primary" onClick={handleShow}>
-                                            Launch demo modal
+                                            Більше інформації
                                         </Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
                             <Col >
                                 <Card className='d-none d-lg-block .d-sm-none ' style={{ width: '18rem' }}>
-                                    <Card.Img variant='top' src={coutch} rounded="true" />
+                                    <Card.Img variant='top' src={bar} rounded="true" style={{ height: '190px' }} />
                                     <Card.Body>
-                                        <Card.Title>Web</Card.Title>
+                                        <Card.Title>Меблі для Вашого закладу</Card.Title>
                                         <Card.Text>
-                                            Lorem, ipsum.
+                                            Приймаємо замовлення на виготовлення меблів Вашого закладу <FaRegSmileBeam style={{ color: 'gold' }} />
                                         </Card.Text>
                                         <Button variant="primary" onClick={handleShow}>
-                                            Launch demo modal
+                                            Більше інформації
                                         </Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
                         </Row>
                     </Container>
-                    <div className="container">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident deserunt ipsum minus ut. Exercitationem consequatur molestias impedit, eligendi nostrum voluptatibus vitae, excepturi cupiditate quidem cum dicta eius aspernatur quia praesentium!</p>
-                    </div>
+
                 </ContentContainer>
             </ParallaxContainer>
             <Modal show={show} onHide={handleClose}>
