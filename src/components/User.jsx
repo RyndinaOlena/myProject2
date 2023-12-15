@@ -20,7 +20,7 @@ const Photo = () => {
     const handleShow = () => setShow(true);
     return (
         <>
-            <Container style={{ paddingTop: '10px', paddingBottom: '10px', width: '100%', marginTop: '50px', paddingLeft: '50px' }}>
+            <Container style={{ padding: '10px 0 10px 50px', width: '100%', marginTop: '50px' }}>
                 <Suspense fallback={<Loader />}>
                     <Row>
                         <Col >
