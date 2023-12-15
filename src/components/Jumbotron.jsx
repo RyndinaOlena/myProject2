@@ -1,82 +1,11 @@
-// import React, { useEffect, useState } from 'react'
-// import { Card, Carousel, Col, OverlayTrigger, Row, Tooltip } from 'react-bootstrap'
-// import styled from 'styled-components'
-// import coutch from '../couch.png'
-// import { Container } from 'react-bootstrap'
-// const Styles = styled.div`
-// .parallax-container {
-//   position: relative;
-//   height: 600px; /* Высота вашей секции, настройте по своему усмотрению */
-//   overflow: hidden;
-// }
-// .jumbo {
-//     backroundImage: url(${coutch}) no-repeat fixed bottom;
-//     backroundSize: cover;
-//     color: #efefef;
-//     height: 300px;
-//     position: relativel;
-//     z-index: -2;
-// }
-// .overlay {
-//     backround-color: #000;
-//     opasity: 0.7;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     bottom: 0;
-//     right: 0;
-//     z-index: -1;
-// }
-// .container {
-//   position: relative;
-//   z-index: 1; 
-//   padding: 100px 0; 
-//   color: #fff;
-// }
-// `
-
-// const Jumbotron = () => {
-//     const [offset, setOffset] = useState(0);
-
-//     useEffect(() => {
-//         const handleScroll = () => {
-//             setOffset(window.pageYOffset);
-//         }; window.addEventListener('scroll', handleScroll);
-
-//         return () => {
-//             window.removeEventListener('scroll', handleScroll);
-//         };
-//     }, []);
-
-//     return (
-//         <Styles>
-//             <div className="jumbo">
-//                 <div
-//                     className="parallax-background"
-//                     style={{ transform: `translateY(-${offset * 0.5}px) backroundImage: url(${coutch})` }}
-//                 >
-//                     {/* Ваш контент, который будет на переднем плане */}
-//                     <div className="container">
-//                         <h1>Your Title</h1>
-//                         <p>Your text goes here.</p>
-//                     </div>
-//                 </div>
-//             </div>
-//         </Styles>
-
-
-//     )
-// }
-
-// export default Jumbotron
-
-import coutch from '../couch.png'
+import coutch from '../photo/kitchen/couch.png'
 
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
-import apartment from 'apartment.jpg'
+import { Button, Card, Col, Container, Modal, Row } from 'react-bootstrap';
+import apartment from '../photo/kitchen/apartment.jpg'
+import { useState } from 'react';
 const ParallaxContainer = styled.div`
 margin-top: 10px;
   position: relative;
@@ -106,57 +35,80 @@ const ContentContainer = styled.div`
 `;
 
 const ParallaxEffect = () => {
+    const [show, setShow] = useState(false);
 
+    const handleClose = () => setShow(false);
+
+    const handleShow = () => setShow(true);
     return (
-        <ParallaxContainer>
-            <ParallaxBackground />
-            <ContentContainer xs={'auto'}>
-                {/* Ваш контент, который будет на переднем плане */}
-                <Container xs={{ height: 'auto', paddingTop: '20px' }} md={{ paddingTop: '10px', paddingBottom: '10px', width: '100%', marginTop: '100px', paddingLeft: '50px' }} style={{ paddingTop: '20px' }}>
-                    <Row >
-                        <Col >
-                            <Card style={{ width: '18rem' }}>
-                                <Card.Img variant='top' src={coutch} rounded='true' />
-                                <Card.Body>
-                                    <Card.Title>Web</Card.Title>
-                                    <Card.Text>
-                                        Lorem, ipsum.
-                                    </Card.Text>
-                                    <Button variant='primary'>Load more</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col >
-                            <Card style={{ width: '18rem' }}>
-                                <Card.Img variant='top' src={coutch} rounded="true" />
-                                <Card.Body>
-                                    <Card.Title>Web</Card.Title>
-                                    <Card.Text>
-                                        Lorem, ipsum.
-                                    </Card.Text>
-                                    <Button variant='primary'>Load more</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col >
-                            <Card style={{ width: '18rem' }}>
-                                <Card.Img variant='top' src={coutch} rounded="true" />
-                                <Card.Body>
-                                    <Card.Title>Web</Card.Title>
-                                    <Card.Text>
-                                        Lorem, ipsum.
-                                    </Card.Text>
-                                    <Button variant='primary'>Load more</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                </Container>
-                <div className="container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident deserunt ipsum minus ut. Exercitationem consequatur molestias impedit, eligendi nostrum voluptatibus vitae, excepturi cupiditate quidem cum dicta eius aspernatur quia praesentium!</p>
-                </div>
-            </ContentContainer>
-        </ParallaxContainer>
+        <>
+            <ParallaxContainer>
+                <ParallaxBackground />
+                <ContentContainer xs={'auto'} style={{ margin: '0 auto' }}>
+                    {/* Ваш контент, который будет на переднем плане */}
+                    <Container xs={{ height: 'auto', paddingTop: '20px' }} md={{ paddingTop: '10px', paddingBottom: '10px', width: '100%', marginTop: '100px', paddingLeft: '50px' }} style={{ paddingTop: '80px' }}>
+                        <Row >
+                            <Col >
+                                <Card style={{ width: '18rem' }}>
+                                    <Card.Img variant='top' src={coutch} rounded='true' />
+                                    <Card.Body>
+                                        <Card.Title>Web</Card.Title>
+                                        <Card.Text>
+                                            Lorem, ipsum.
+                                        </Card.Text>
+                                        <Button variant="primary" onClick={handleShow}>
+                                            Launch demo modal
+                                        </Button>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col >
+                                <Card className='d-none d-lg-block .d-sm-none ' style={{ width: '18rem' }}>
+                                    <Card.Img variant='top' src={coutch} rounded="true" />
+                                    <Card.Body>
+                                        <Card.Title>Web</Card.Title>
+                                        <Card.Text>
+                                            Lorem, ipsum.
+                                        </Card.Text>
+                                        <Button variant="primary" onClick={handleShow}>
+                                            Launch demo modal
+                                        </Button>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col >
+                                <Card className='d-none d-lg-block .d-sm-none ' style={{ width: '18rem' }}>
+                                    <Card.Img variant='top' src={coutch} rounded="true" />
+                                    <Card.Body>
+                                        <Card.Title>Web</Card.Title>
+                                        <Card.Text>
+                                            Lorem, ipsum.
+                                        </Card.Text>
+                                        <Button variant="primary" onClick={handleShow}>
+                                            Launch demo modal
+                                        </Button>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row>
+                    </Container>
+                    <div className="container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident deserunt ipsum minus ut. Exercitationem consequatur molestias impedit, eligendi nostrum voluptatibus vitae, excepturi cupiditate quidem cum dicta eius aspernatur quia praesentium!</p>
+                    </div>
+                </ContentContainer>
+            </ParallaxContainer>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Modal heading</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+                <Modal.Footer>
+                    <Button variant="primary" onClick={handleClose}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
+        </>
 
     );
 };
