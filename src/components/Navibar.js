@@ -14,7 +14,7 @@ const Navibar = () => {
                     <Nav md={{ marginRight: '100px' }} >
                         <NavLink to="/" style={{ 'textDecoration': 'none', marginRight: '0px', color: 'white', paddingRight: '10px' }}><h6 >ГОЛОВНА</h6></NavLink>
                         <NavLink to="/users" style={{ 'textDecoration': 'none', marginRight: '0px', color: 'white', padding: '0 20px 0 0px' }}><h6>ПОРФОЛІО</h6></NavLink>
-                        <NavLink to="/about" style={{ 'textDecoration': 'none', marginRight: '0px', color: 'white', padding: '0 20px 0 0px' }}><h6>ПРО НАС</h6></NavLink>
+                        <NavLink className='d-none d-lg-block d-md-block' to="/about" style={{ 'textDecoration': 'none', marginRight: '0px', color: 'white', padding: '0 20px 0 0px' }}><h6>ПРО НАС</h6></NavLink>
 
                     </Nav>
                 </Container>
