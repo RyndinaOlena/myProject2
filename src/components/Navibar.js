@@ -12,9 +12,9 @@ const Navibar = () => {
                 <Navbar.Brand style={{ paddingLeft: ' 20px' }}><h3>Comfort</h3></Navbar.Brand>
                 <Container className="float-sm-start" sm={{ width: '540px' }} fluid="md" >
                     <Nav md={{ marginRight: '100px' }} >
-                        <NavLink to="/" style={{ 'textDecoration': 'none', marginRight: '0px', color: 'white', paddingRight: '10px' }}><h6 >ГОЛОВНА</h6></NavLink>
-                        <NavLink to="/users" style={{ 'textDecoration': 'none', marginRight: '0px', color: 'white', padding: '0 20px 0 0px' }}><h6>ПОРФОЛІО</h6></NavLink>
-                        <NavLink className='d-none d-lg-block d-md-block' to="/about" style={{ 'textDecoration': 'none', marginRight: '0px', color: 'white', padding: '0 20px 0 0px' }}><h6>ПРО НАС</h6></NavLink>
+                        <NavLink to="/" style={{ 'textDecoration': 'none', marginRight: '0px', color: 'white', paddingRight: '10px' }}><h8>ГОЛОВНА</h8></NavLink>
+                        <NavLink to="/users" style={{ 'textDecoration': 'none', marginRight: '0px', color: 'white', padding: '0 20px 0 0px' }}><h8>ПОРФОЛІО</h8></NavLink>
+                        <NavLink className='d-none d-lg-block d-md-block' to="/about" style={{ 'textDecoration': 'none', marginRight: '0px', color: 'white', padding: '0 20px 0 0px' }}><h8>ПРО НАС</h8></NavLink>
 
                     </Nav>
                 </Container>
