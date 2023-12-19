@@ -31,8 +31,8 @@ const Photo = () => {
 
                     />
                     <Carousel.Caption>
-                        <h3>Ми втілюємо мрії кожного</h3>
-                        <p>Створюємо меблі з індивідуальним підходом </p>
+                        <h3>Меблі виготовлені з любов'ю</h3>
+
 
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -49,8 +49,8 @@ const Photo = () => {
                         src={broukKitch}
                         alt='second slide' />
                     <Carousel.Caption>
-                        <h3>Відкриті до нових ідей</h3>
-                        <p>Створюємо персональні інтер'єри</p>
+                        <h3>Меблі виготовлені з любов'ю</h3>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item md={{ 'height': '100px' }}>
@@ -66,8 +66,8 @@ const Photo = () => {
                         src={closet}
                         alt='third slide' />
                     <Carousel.Caption>
-                        <h3>Ваша уява, наше втілення</h3>
-                        <p>Меблі для дому вашої мрії.</p>
+                        <h3>Меблі виготовлені з любов'ю</h3>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item md={{ 'height': '100px' }}>
@@ -83,8 +83,8 @@ const Photo = () => {
                         src={grinKitch}
                         alt='third slide' />
                     <Carousel.Caption>
-                        <h3>Ваша уява, наше втілення</h3>
-                        <p>Меблі для дому вашої мрії.</p>
+                        <h3>Меблі виготовлені з любов'ю</h3>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item md={{ 'height': '100px' }}>
@@ -100,8 +100,8 @@ const Photo = () => {
                         src={kitchen}
                         alt='third slide' />
                     <Carousel.Caption>
-                        <h3>Ваша уява, наше втілення</h3>
-                        <p>Меблі для дому вашої мрії.</p>
+                        <h3>Меблі виготовлені з любов'ю</h3>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item md={{ 'height': '100px' }}>
@@ -116,8 +116,8 @@ const Photo = () => {
                         src={redKitch}
                         alt='third slide' />
                     <Carousel.Caption>
-                        <h3>Ваша уява, наше втілення</h3>
-                        <p>Меблі для дому вашої мрії.</p>
+                        <h3>Меблі виготовлені з любов'ю</h3>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item md={{ 'height': '100px' }}>
@@ -133,8 +133,8 @@ const Photo = () => {
                         src={rivera}
                         alt='third slide' />
                     <Carousel.Caption>
-                        <h3>Ваша уява, наше втілення</h3>
-                        <p>Меблі для дому вашої мрії.</p>
+                        <h3>Меблі виготовлені з любов'ю</h3>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item md={{ 'height': '100px' }}>
@@ -150,8 +150,8 @@ const Photo = () => {
                         src={tv}
                         alt='third slide' />
                     <Carousel.Caption>
-                        <h3>Ваша уява, наше втілення</h3>
-                        <p>Меблі для дому вашої мрії.</p>
+                        <h3>Меблі виготовлені з любов'ю</h3>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item md={{ 'height': '100px' }}>
@@ -167,8 +167,8 @@ const Photo = () => {
                         src={whiteKitch}
                         alt='third slide' />
                     <Carousel.Caption>
-                        <h3>Ваша уява, наше втілення</h3>
-                        <p>Меблі для дому вашої мрії.</p>
+                        <h3>Меблі виготовлені з любов'ю</h3>
+
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

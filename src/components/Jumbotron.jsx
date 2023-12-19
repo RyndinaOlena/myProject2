@@ -138,7 +138,7 @@ const ParallaxEffect = () => {
                     <Modal.Title>Меблі для закладу мають бути довговитривалими
                     </Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Ми робимо меблі найвищої якості, для Вашого спокою.</Modal.Body>
+                <Modal.Body>Ми робимо меблі найвищої якості, для Вашої впевненості в собі.</Modal.Body>
                 <Modal.Footer>
                     <Button variant="primary" onClick={handleClose3}>
                         Close
