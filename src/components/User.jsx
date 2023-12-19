@@ -15,8 +15,8 @@ const Photo = () => {
 
     return (
 
-        <Container >
-            <Carousel xs={{ width: '0 auto' }} md={{ width: '700px', margin: '0 auto', marginBottom: '50px', marginTop: '50px' }}>
+        <Container style={{ maxWidth: '700px', marginBottom: '20px', marginTop: '20px' }} >
+            <Carousel md={{ width: '700px', margin: '0 auto', marginBottom: '50px', marginTop: '50px' }}>
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img style={{
                         maxHeight: '500px',
