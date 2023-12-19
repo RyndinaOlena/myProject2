@@ -19,8 +19,8 @@ const Photo = () => {
             <Carousel md={{ width: '700px', margin: '0 auto', marginBottom: '50px', marginTop: '50px' }}>
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img style={{
-                        minHeight: "400px",
-                        maxHeight: '450px',
+                        minHeight: "450px",
+                        maxHeight: '500px',
                         display: 'flex',
                         flexDirection: 'column',
                         justifyContent: 'center'
@@ -39,8 +39,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            minHeight: "400px",
-                            maxHeight: '450px',
+                            minHeight: "450px",
+                            maxHeight: '500px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -56,8 +56,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            minHeight: "400px",
-                            maxHeight: '450px',
+                            minHeight: "450px",
+                            maxHeight: '500px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -73,8 +73,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            minHeight: "400px",
-                            maxHeight: '450px',
+                            minHeight: "450px",
+                            maxHeight: '500px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -90,8 +90,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            minHeight: "400px",
-                            maxHeight: '450px',
+                            minHeight: "450px",
+                            maxHeight: '500px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -107,8 +107,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            minHeight: "400px",
-                            maxHeight: '450px',
+                            minHeight: "450px",
+                            maxHeight: '500px',
                             flexDirection: 'column',
                             justifyContent: 'center'
                         }}
@@ -123,8 +123,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            minHeight: "400px",
-                            maxHeight: '450px',
+                            minHeight: "450px",
+                            maxHeight: '500px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -140,8 +140,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            minHeight: "400px",
-                            maxHeight: '450px',
+                            minHeight: "450px",
+                            maxHeight: '500px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -157,8 +157,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            minHeight: "400px",
-                            maxHeight: '450px',
+                            minHeight: "450px",
+                            maxHeight: '500px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
