@@ -9,7 +9,7 @@ const Footer = () => {
                 <Col><h6 >Місто Миколаїв</h6></Col>
                 <Col><kbd>+380668382582</kbd></Col>
                 <Col><kbd>+380939331160</kbd></Col>
-                <PiSketchLogoThin style={{ fontSize: '100' }} xs={{ fontSize: '50' }} className="float-sm-start" />
+                <PiSketchLogoThin style={{ fontSize: '100' }} sm={{ fontSize: '50' }} />
             </Row>
         </Container >
     )

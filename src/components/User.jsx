@@ -1,32 +1,35 @@
 
 import { Carousel, Container } from 'react-bootstrap'
-import blackKitch from '../photo/works/blackKitchen.png'
-import broukKitch from '../photo/works/brounKitchen.png'
-import closet from '../photo/works/closet.png'
-import grinKitch from '../photo/works/grinKitchen.png'
-import kitchen from '../photo/works/kitchen.png'
-import redKitch from '../photo/works/redKitchen.png'
-import rivera from '../photo/works/rivera.png'
-import tv from '../photo/works/tv.png'
-import whiteKitch from '../photo/works/whiteKitchen.png'
+import blackKitch from '../photo/works/blackKitchen.jpg'
+import broukKitch from '../photo/works/brounKitchen.jpg'
+import closet from '../photo/works/closet.jpg'
+import grinKitch from '../photo/works/grinKitchen.jpg'
+import kitchen from '../photo/works/kitchen.jpg'
+import redKitch from '../photo/works/redKitchen.jpg'
+import rivera from '../photo/works/rivera.jpg'
+import tv from '../photo/works/tv.jpg'
+import whiteKitch from '../photo/works/whiteKitchen.jpg'
 
 
 const Photo = () => {
 
     return (
 
-        <Container style={{ maxWidth: '700px', marginBottom: '20px', marginTop: '20px' }} >
+        <Container style={{ minHeight: "400px", maxWidth: '700px', marginBottom: '20px', marginTop: '20px' }} >
             <Carousel md={{ width: '700px', margin: '0 auto', marginBottom: '50px', marginTop: '50px' }}>
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img style={{
-                        maxHeight: '500px',
+                        minHeight: "400px",
+                        maxHeight: '450px',
                         display: 'flex',
                         flexDirection: 'column',
                         justifyContent: 'center'
                     }}
                         className="d-block w-100 h-300px"
                         src={blackKitch}
-                        alt='First slide' />
+                        alt='First slide'
+
+                    />
                     <Carousel.Caption>
                         <h3>Ми втілюємо мрії кожного</h3>
                         <p>Створюємо меблі з індивідуальним підходом </p>
@@ -36,7 +39,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            maxHeight: '500px',
+                            minHeight: "400px",
+                            maxHeight: '450px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -52,7 +56,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            maxHeight: '500px',
+                            minHeight: "400px",
+                            maxHeight: '450px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -68,7 +73,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            maxHeight: '500px',
+                            minHeight: "400px",
+                            maxHeight: '450px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -84,7 +90,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            maxHeight: '500px',
+                            minHeight: "400px",
+                            maxHeight: '450px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -100,8 +107,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            maxHeight: '500px',
-                            display: 'flex',
+                            minHeight: "400px",
+                            maxHeight: '450px',
                             flexDirection: 'column',
                             justifyContent: 'center'
                         }}
@@ -116,7 +123,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            maxHeight: '500px',
+                            minHeight: "400px",
+                            maxHeight: '450px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -132,7 +140,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            maxHeight: '500px',
+                            minHeight: "400px",
+                            maxHeight: '450px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
@@ -148,7 +157,8 @@ const Photo = () => {
                 <Carousel.Item md={{ 'height': '100px' }}>
                     <img
                         style={{
-                            maxHeight: '500px',
+                            minHeight: "400px",
+                            maxHeight: '450px',
                             display: 'flex',
                             flexDirection: 'column',
                             justifyContent: 'center'
