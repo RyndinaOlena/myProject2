@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myProject2/static/css/main.5ce3e43a.css",
-    "main.js": "/myProject2/static/js/main.8d1f1286.js",
+    "main.js": "/myProject2/static/js/main.429f18ac.js",
     "static/media/blackKitchen.png": "/myProject2/static/media/blackKitchen.38828134450d7b79b9a7.png",
     "static/media/brounKitchen.png": "/myProject2/static/media/brounKitchen.2dc8b696e72d3e6f28e0.png",
     "static/media/closet.png": "/myProject2/static/media/closet.c9fc955292dd33f08fee.png",
@@ -11,19 +11,19 @@
     "static/media/whiteKitchen.png": "/myProject2/static/media/whiteKitchen.c17060b262475067d9bf.png",
     "static/media/rivera.png": "/myProject2/static/media/rivera.6ffaa95d17be1a43f19e.png",
     "static/media/tv.png": "/myProject2/static/media/tv.5d08b08124714ba59009.png",
-    "static/media/kitchen-2.png": "/myProject2/static/media/kitchen-2.2bc39301104460bfd6bc.png",
-    "static/media/kitchen-1.png": "/myProject2/static/media/kitchen-1.27b67f34b141dedf2c5b.png",
-    "static/media/couch.png": "/myProject2/static/media/couch.1b23ab6e43a054e2f9bf.png",
-    "static/media/bar.jpg": "/myProject2/static/media/bar.1a49366fea32d8f6f334.jpg",
-    "static/media/sign3.jpg": "/myProject2/static/media/sign3.58081f513c53323477a6.jpg",
-    "static/media/apartment.jpg": "/myProject2/static/media/apartment.bcbb72f5df39d45f0e14.jpg",
-    "static/media/planner.jpg": "/myProject2/static/media/planner.61dd2df26ce5b691af50.jpg",
+    "static/media/bar.jpg": "/myProject2/static/media/bar.513251aeb7e3212462ac.jpg",
+    "static/media/apartment.jpg": "/myProject2/static/media/apartment.1053638bbc6b46d49652.jpg",
+    "static/media/open.jpg": "/myProject2/static/media/open.e87ef90d4ffa1a02bc36.jpg",
+    "static/media/kitchen-1.jpg": "/myProject2/static/media/kitchen-1.848db4ced34948b2e6bf.jpg",
+    "static/media/planner.jpg": "/myProject2/static/media/planner.8506d3c50b1cae7b0c1b.jpg",
+    "static/media/couch.jpg": "/myProject2/static/media/couch.8a4ebfdbd68245f5cf3a.jpg",
+    "static/media/kitchen-2.jpg": "/myProject2/static/media/kitchen-2.2c21a7fb5ab11bbdf5f1.jpg",
     "index.html": "/myProject2/index.html",
     "main.5ce3e43a.css.map": "/myProject2/static/css/main.5ce3e43a.css.map",
-    "main.8d1f1286.js.map": "/myProject2/static/js/main.8d1f1286.js.map"
+    "main.429f18ac.js.map": "/myProject2/static/js/main.429f18ac.js.map"
   },
   "entrypoints": [
     "static/css/main.5ce3e43a.css",
-    "static/js/main.8d1f1286.js"
+    "static/js/main.429f18ac.js"
   ]
 }
