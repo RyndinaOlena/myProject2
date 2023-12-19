@@ -1,8 +1,8 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-import kitchen from '../photo/kitchen/kitchen-1.png'
-import couch from '../photo/kitchen/couch.png'
-import kitchenRoom from '../photo/kitchen/kitchen-2.png'
+import kitchen from '../photo/kitchen/kitchen-1.jpg'
+import couch from '../photo/kitchen/couch.jpg'
+import kitchenRoom from '../photo/kitchen/kitchen-2.jpg'
 const Slider = () => {
     return (
         <Carousel>
@@ -12,8 +12,9 @@ const Slider = () => {
                     src={kitchen}
                     alt='First slide' />
                 <Carousel.Caption>
-                    <h3>Web slider</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, iusto.</p>
+                    <h3>Ми втілюємо мрії кожного</h3>
+                    <p>Створюємо меблі з індивідуальним підходом </p>
+
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item md={{ 'height': '500px' }}>
@@ -22,8 +23,8 @@ const Slider = () => {
                     src={couch}
                     alt='second slide' />
                 <Carousel.Caption>
-                    <h3>Web slider</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, iusto.</p>
+                    <h3>Відкриті до нових ідей</h3>
+                    <p>Створюємо персональні інтер'єри</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item md={{ 'height': '500px' }}>
@@ -32,8 +33,8 @@ const Slider = () => {
                     src={kitchenRoom}
                     alt='third slide' />
                 <Carousel.Caption>
-                    <h3>Web slider</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, iusto.</p>
+                    <h3>Ваша уява, наше втілення</h3>
+                    <p>Меблі для дому вашої мрії.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

@@ -1,6 +1,6 @@
 
 import planner from '../photo/kitchen/planner.jpg'
-import sign from '../photo/kitchen/sign3.jpg'
+import sign from '../photo/kitchen/open.jpg'
 import bar from '../photo/kitchen/bar.jpg'
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -41,10 +41,17 @@ const ContentContainer = styled.div`
 
 const ParallaxEffect = () => {
     const [show, setShow] = useState(false);
+    const [show2, setShow2] = useState(false);
+    const [show3, setShow3] = useState(false);
 
     const handleClose = () => setShow(false);
-
     const handleShow = () => setShow(true);
+
+    const handleClose2 = () => setShow2(false);
+    const handleShow2 = () => setShow2(true)
+
+    const handleClose3 = () => setShow3(false);
+    const handleShow3 = () => setShow3(true)
     return (
         <>
             <ParallaxContainer>
@@ -77,7 +84,7 @@ const ParallaxEffect = () => {
                                             <br />
                                             <br />
                                         </Card.Text>
-                                        <Button variant="primary" onClick={handleShow}>
+                                        <Button variant="primary" onClick={handleShow2}>
                                             Більше інформації
                                         </Button>
                                     </Card.Body>
@@ -91,7 +98,7 @@ const ParallaxEffect = () => {
                                         <Card.Text>
                                             Приймаємо замовлення на виготовлення меблів Вашого закладу <FaRegSmileBeam style={{ color: 'gold' }} />
                                         </Card.Text>
-                                        <Button variant="primary" onClick={handleShow}>
+                                        <Button variant="primary" onClick={handleShow3}>
                                             Більше інформації
                                         </Button>
                                     </Card.Body>
@@ -104,11 +111,36 @@ const ParallaxEffect = () => {
             </ParallaxContainer>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
+                    <Modal.Title>Дзвоніть у будь який час</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+                <Modal.Body>Ми розуміємо на скільки цінний Ваш час, тому бережемо кожну хвилину!</Modal.Body>
                 <Modal.Footer>
                     <Button variant="primary" onClick={handleClose}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
+            <Modal show={show2} onHide={handleClose2}>
+                <Modal.Header closeButton>
+                    <Modal.Title>
+                        Планування це найважливіша частина виготовлення меблів.
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Нам важливо щоб Ви були щасливі в себе вдома, тому приділяємо увагу до кожного бажання наших клієнтів</Modal.Body>
+                <Modal.Footer>
+                    <Button variant="primary" onClick={handleClose2}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
+            <Modal show={show3} onHide={handleClose3}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Меблі для закладу мають бути довговитривалими
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Ми робимо меблі найвищої якості, для Вашого спокою.</Modal.Body>
+                <Modal.Footer>
+                    <Button variant="primary" onClick={handleClose3}>
                         Close
                     </Button>
                 </Modal.Footer>
