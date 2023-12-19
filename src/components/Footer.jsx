@@ -10,9 +10,7 @@ const Footer = () => {
                 <Col><kbd>+380668382582</kbd></Col>
                 <Col><kbd>+380939331160</kbd></Col>
                 <PiSketchLogoThin style={{ fontSize: '100' }} />
-
             </Row>
-
         </Container >
     )
 }

@@ -12,7 +12,7 @@ const Home = () => {
             <Slider />
             <ParallaxEffect />
             <Container style={{ marginTop: '30px', marginBottom: '30px' }}>
-                <Row xs="auto" md={{ marginBottom: '20px', }}>
+                <Row xs="auto" md={{ marginBottom: '20px' }}>
                     <Col xs="auto" >
                         <Image className="d-block w-100" xs="auto" src={kitchen2} md={{ height: 'auto' }} />
                     </Col>

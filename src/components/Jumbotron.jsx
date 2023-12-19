@@ -49,11 +49,11 @@ const ParallaxEffect = () => {
         <>
             <ParallaxContainer>
                 <ParallaxBackground />
-                <ContentContainer xs={'auto'} style={{ margin: '0 auto' }}>
+                <ContentContainer xs={'auto'} style={{ margin: '0 auto', }}>
                     {/* Ваш контент, который будет на переднем плане */}
                     <Container xs={{ height: 'auto', paddingTop: '20px' }} md={{ paddingTop: '10px', paddingBottom: '10px', width: '100%', marginTop: '100px', paddingLeft: '50px' }} style={{ paddingTop: '80px' }}>
                         <Row >
-                            <Col >
+                            <Col>
                                 <Card style={{ width: '18rem' }}>
                                     <Card.Img variant='top' src={sign} rounded='true' />
                                     <Card.Body>
@@ -68,7 +68,7 @@ const ParallaxEffect = () => {
                                 </Card>
                             </Col>
                             <Col >
-                                <Card className='d-none d-lg-block .d-sm-none ' style={{ width: '18rem' }}>
+                                <Card style={{ width: '18rem' }} className='d-none d-lg-block .d-sm-none ' >
                                     <Card.Img variant='top' src={planner} rounded="true" />
                                     <Card.Body>
                                         <Card.Title>Планування <IoCheckmarkDoneSharp style={{ color: "green" }} /></Card.Title>
