@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/myProject2/static/css/main.5ce3e43a.css",
-    "main.js": "/myProject2/static/js/main.c958f223.js",
-    "static/media/blackKitchen.png": "/myProject2/static/media/blackKitchen.38828134450d7b79b9a7.png",
-    "static/media/brounKitchen.png": "/myProject2/static/media/brounKitchen.2dc8b696e72d3e6f28e0.png",
-    "static/media/closet.png": "/myProject2/static/media/closet.c9fc955292dd33f08fee.png",
-    "static/media/redKitchen.png": "/myProject2/static/media/redKitchen.b9ab8e0f0aab67edf799.png",
-    "static/media/grinKitchen.png": "/myProject2/static/media/grinKitchen.ce16460e2e9512fb4395.png",
-    "static/media/kitchen.png": "/myProject2/static/media/kitchen.aab6c3fa38ff135fc635.png",
-    "static/media/whiteKitchen.png": "/myProject2/static/media/whiteKitchen.c17060b262475067d9bf.png",
-    "static/media/rivera.png": "/myProject2/static/media/rivera.6ffaa95d17be1a43f19e.png",
-    "static/media/tv.png": "/myProject2/static/media/tv.5d08b08124714ba59009.png",
+    "main.js": "/myProject2/static/js/main.4acb108d.js",
     "static/media/bar.jpg": "/myProject2/static/media/bar.513251aeb7e3212462ac.jpg",
+    "static/media/closet.jpg": "/myProject2/static/media/closet.f7c6cafc77fce6d511c2.jpg",
     "static/media/apartment.jpg": "/myProject2/static/media/apartment.1053638bbc6b46d49652.jpg",
+    "static/media/grinKitchen.jpg": "/myProject2/static/media/grinKitchen.474eb57f0d972975bbff.jpg",
+    "static/media/brounKitchen.jpg": "/myProject2/static/media/brounKitchen.8ea086c2cf07b6571db7.jpg",
+    "static/media/redKitchen.jpg": "/myProject2/static/media/redKitchen.bcb52f801129ee028316.jpg",
+    "static/media/blackKitchen.jpg": "/myProject2/static/media/blackKitchen.0d982c349efb63abb2c6.jpg",
     "static/media/open.jpg": "/myProject2/static/media/open.e87ef90d4ffa1a02bc36.jpg",
+    "static/media/whiteKitchen.jpg": "/myProject2/static/media/whiteKitchen.fa7c2bc1ce146d6ed800.jpg",
     "static/media/kitchen-1.jpg": "/myProject2/static/media/kitchen-1.848db4ced34948b2e6bf.jpg",
+    "static/media/kitchen.jpg": "/myProject2/static/media/kitchen.b57c3cc66e447bd56f41.jpg",
+    "static/media/tv.jpg": "/myProject2/static/media/tv.4634033132fbedb227b7.jpg",
     "static/media/planner.jpg": "/myProject2/static/media/planner.8506d3c50b1cae7b0c1b.jpg",
     "static/media/couch.jpg": "/myProject2/static/media/couch.8a4ebfdbd68245f5cf3a.jpg",
     "static/media/kitchen-2.jpg": "/myProject2/static/media/kitchen-2.2c21a7fb5ab11bbdf5f1.jpg",
+    "static/media/rivera.jpg": "/myProject2/static/media/rivera.5b68968931c384d98e9e.jpg",
     "index.html": "/myProject2/index.html",
     "main.5ce3e43a.css.map": "/myProject2/static/css/main.5ce3e43a.css.map",
-    "main.c958f223.js.map": "/myProject2/static/js/main.c958f223.js.map"
+    "main.4acb108d.js.map": "/myProject2/static/js/main.4acb108d.js.map"
   },
   "entrypoints": [
     "static/css/main.5ce3e43a.css",
-    "static/js/main.c958f223.js"
+    "static/js/main.4acb108d.js"
   ]
 }
